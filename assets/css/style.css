@@ -9,6 +9,7 @@
     --brun: #352817;
     --gul: #F0E7B3;
     --lysgrå: #E3E3E3;
+    --bodyTekst: #303030;
     --knap: linear-gradient(90deg, #04502A 0%, rgba(0, 106, 53, 0.80) 50%, #04502A 100%);
     --overlay: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.24) 27%, rgba(0, 0, 0, 0.60) 100%);
 
@@ -102,7 +103,7 @@ header i{
     display: flex;
     flex-direction: row;
     gap: 6rem;
-    color: var(--brun);
+    color: var(--bodyTekst);
 }
 
 .img{
@@ -135,7 +136,7 @@ header i{
 
 .populare{
     text-align: center;
-    color: var(--brun);
+    color: var(--bodyTekst);
 }
 .produktbillede{
     width: 250px;
@@ -169,4 +170,10 @@ header i{
     width: 75ch;
     align-items: center;
     margin: auto ;
+}
+
+.overlay-billede{
+    background-image: var(--overlay), url(/Skærmbillede\ 2024-11-04\ kl.\ 09.13.35.png);
+    width: 250px;
+    height: 250px;
 }
